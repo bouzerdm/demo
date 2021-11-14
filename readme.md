@@ -13,7 +13,21 @@
 - Authentification et gestion des rôles avec Spring Security
 - Explications détaillée de Spring ( Contexte Spring, Beans, Injection de dépendances, Inversion de controle )
 - Gestion des environnements
-- Interet de Spring Boot
+- Avantages et apports de Spring Boot
 - Déployer une application Spring sur un serveur Distant ( Cloud )
 - Explications détaillées sur Git
 - Explications détaillées sur Docker
+- Pratiques CraftmanShip ( BDD, TDD, DDD, Principes Solid, Architectures Exagonales )
+- Explorer les design patterns les plus utilisés
+- Tests unitaires Vs Tests d'integration
+- Pipelines CI / CD
+- Fonctionnement de l'agilité
+- Evaluation de la qualité de code avec sonar
+
+
+
+## Concepts Réseau et systèmes
+ - DNS, TCP/IP, HTTP/HTTPS, chiffrement symétrique, chiffrement asymétrique, fonctions de hashage
+ - Firewalls, Proxy, Reverse Proxy
+ - Serveurs : NGINX, apache, tomcat
+ - Principes Oauth2
