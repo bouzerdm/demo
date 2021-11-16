@@ -5,7 +5,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 public class MyFirstRestController {
@@ -14,9 +13,13 @@ public class MyFirstRestController {
     PlayerRepository playerRepository;
 
 
+    @Autowired
+    Temperature temperature;
+
+
     @GetMapping
     public String test() {
-        return "hello world";
+        return temperature.getTemperature()+ "";
     }
 
     @GetMapping("/test-path")
@@ -25,11 +28,10 @@ public class MyFirstRestController {
     }
 
 
-    @PostMapping("/post-test")
-    public String testPost(@RequestParam("temperature") Integer temperature,
-                           @RequestHeader("credentials") String test,
-                           @RequestBody Player player) {
-        return "la temperature est de " + player.getNom();
+    @PostMapping("/create-player")
+    public String testPost(@RequestBody Player player) {
+        playerRepository.save(player);
+        return "création effectuée avec succés";
     }
 
     @GetMapping("players")

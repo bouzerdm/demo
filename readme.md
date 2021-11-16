@@ -6,23 +6,23 @@
 - Connexion à la base de données + insertion de données + récuprération de données + requêtes basiques
 - Utilisation de Flyway pour les migrations de base de données
 - Visualisation des différents Goals Maven
+- Gestion des environnements
+- Tests unitaires VS Tests d'integration
+- Evaluation de la qualité de code avec sonar
 
 
 ## Prochaines étapes :
 
 - Authentification et gestion des rôles avec Spring Security
 - Explications détaillée de Spring ( Contexte Spring, Beans, Injection de dépendances, Inversion de controle )
-- Gestion des environnements
 - Avantages et apports de Spring Boot
 - Déployer une application Spring sur un serveur Distant ( Cloud )
 - Explications détaillées sur Git
 - Explications détaillées sur Docker
 - Pratiques CraftmanShip ( BDD, TDD, DDD, Principes Solid, Architectures Exagonales )
 - Explorer les design patterns les plus utilisés
-- Tests unitaires Vs Tests d'integration
 - Pipelines CI / CD
 - Fonctionnement de l'agilité
-- Evaluation de la qualité de code avec sonar
 
 
 
