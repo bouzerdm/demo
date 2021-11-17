@@ -16,6 +16,9 @@ public class MyFirstRestController {
     @Autowired
     Temperature temperature;
 
+    @Autowired
+    TestService testService;
+
 
     @GetMapping
     public String test() {
@@ -37,5 +40,11 @@ public class MyFirstRestController {
     @GetMapping("players")
     public List<Player> getAllPlyers() {
         return playerRepository.findAll();
+    }
+
+
+    @GetMapping("for-test")
+    public Player test2(){
+        return testService.renderResult();
     }
 }
