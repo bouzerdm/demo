@@ -11,7 +11,7 @@
 - Evaluation de la qualité de code avec sonar
 - Explications détaillée de Spring ( Contexte Spring, Beans, Injection de dépendances, Inversion de controle )
 - Avantages et apports de Spring Boot
-
+- test git
 
 ## Prochaines étapes :
 
