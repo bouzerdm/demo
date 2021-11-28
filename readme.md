@@ -9,13 +9,13 @@
 - Gestion des environnements
 - Tests unitaires VS Tests d'integration
 - Evaluation de la qualité de code avec sonar
-
+- Explications détaillée de Spring ( Contexte Spring, Beans, Injection de dépendances, Inversion de controle )
+- Avantages et apports de Spring Boot
+- test git
 
 ## Prochaines étapes :
 
 - Authentification et gestion des rôles avec Spring Security
-- Explications détaillée de Spring ( Contexte Spring, Beans, Injection de dépendances, Inversion de controle )
-- Avantages et apports de Spring Boot
 - Déployer une application Spring sur un serveur Distant ( Cloud )
 - Explications détaillées sur Git
 - Explications détaillées sur Docker
