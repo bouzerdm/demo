@@ -31,6 +31,5 @@
  - Firewalls, Proxy, Reverse Proxy
  - Serveurs : NGINX, apache, tomcat
  - Principes Oauth2
- - Test
 
 
